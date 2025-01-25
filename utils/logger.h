@@ -19,22 +19,22 @@ namespace ksharp
 {
     namespace logger
     {
-        inline void message(std::string message)
+        void message(std::string message)
         {
             cout << ANSI_CYAN << " - [ MESSAGE ] " << ANSI_RESET << message << endl;
         }
 
-        inline void error(std::string message)
+        void error(std::string message)
         {
             cout << ANSI_RED << " - [ ERROR ] " << ANSI_RESET << message << endl;
         }
 
-        inline void warning(std::string message)
+        void warning(std::string message)
         {
             cerr << ANSI_YELLOW << " - [ WARNING ] " << ANSI_RESET << message << endl;
         }
 
-        inline void debug(std::string message)
+        void debug(std::string message)
         {
             cout << ANSI_GREEN << " - [ DEBUG ] " << ANSI_RESET << message << endl;
         }

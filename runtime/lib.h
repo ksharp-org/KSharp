@@ -14,5 +14,6 @@ namespace lib
 {
     namespace compiler
     {
+        class compiler
     }
 }

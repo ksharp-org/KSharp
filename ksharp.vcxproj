@@ -154,6 +154,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <Content Include=".editorconfig" />
     <Content Include=".github\FUNDING.yml" />
     <Content Include=".github\ISSUE_TEMPLATE\01-bug_report.md" />
     <Content Include=".github\ISSUE_TEMPLATE\config.yml" />
@@ -163,14 +164,14 @@
     <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="cli\" />
-  </ItemGroup>
-  <ItemGroup>
+    <ClCompile Include="cli\main.cpp" />
     <ClCompile Include="runtime\compiler\comp.cpp" />
     <ClCompile Include="runtime\compiler\main.cpp" />
     <ClCompile Include="runtime\compiler\parts\lexer\lexer.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="cli\cmds\comp.h" />
+    <ClInclude Include="cli\cmds\help.h" />
     <ClInclude Include="runtime\compiler\comp.h" />
     <ClInclude Include="runtime\compiler\parts\lexer\lexer.h" />
     <ClInclude Include="runtime\lib.h" />
