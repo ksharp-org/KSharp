@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-#include "../../runtime/lib.h"
+#include "../../runtime/lib.hpp"
 
 namespace cli
 {

@@ -6,7 +6,7 @@
 
 #include <string>
 #include <vector>
-#include "compiler/comp.h"
+#include "compiler/comp.hpp"
 
 using namespace std;
 

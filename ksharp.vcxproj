@@ -170,11 +170,11 @@
     <ClCompile Include="runtime\compiler\parts\lexer\lexer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cli\cmds\comp.h" />
-    <ClInclude Include="cli\cmds\help.h" />
-    <ClInclude Include="runtime\compiler\comp.h" />
-    <ClInclude Include="runtime\compiler\parts\lexer\lexer.h" />
-    <ClInclude Include="runtime\lib.h" />
+    <ClInclude Include="cli\cmds\comp.hpp" />
+    <ClInclude Include="cli\cmds\help.hpp" />
+    <ClInclude Include="runtime\compiler\comp.hpp" />
+    <ClInclude Include="runtime\compiler\parts\lexer\lexer.hpp" />
+    <ClInclude Include="runtime\lib.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

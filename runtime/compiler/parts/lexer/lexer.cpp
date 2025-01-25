@@ -1,4 +1,4 @@
-﻿#include "lexer.h"
+﻿#include "lexer.hpp"
 
 using namespace std;
 
@@ -8,8 +8,8 @@ namespace ksharp
     {
         void lexer::setup(string code)
         {
-            lexerData.code = code;
-            lexerData.tokens = vector<string>();
+            lexer_data.code = code;
+            lexer_data.tokens = vector<string>();
         }
         void lexer::lex()
         {

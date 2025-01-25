@@ -4,7 +4,7 @@
 #include <string>
 
 #include "../../utils/logger.h"
-#include "comp.h"
+#include "comp.hpp"
 
 using namespace std;
 

@@ -1,7 +1,7 @@
 ﻿#pragma once
 
 #include <string>
-#include "parts/lexer/lexer.h"
+#include "parts/lexer/lexer.hpp"
 
 using namespace std;
 
@@ -10,7 +10,7 @@ namespace ksharp
     class compiler
     {
     public:
-    
+
         struct Data
         {
             string code;

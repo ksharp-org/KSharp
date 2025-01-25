@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 #include "../utils/logger.h"
-#include "cmds/help.h"
+#include "cmds/help.hpp"
 #include <string>
 
 int main(int argc, char** argv)
