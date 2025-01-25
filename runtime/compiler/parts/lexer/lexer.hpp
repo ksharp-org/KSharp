@@ -14,19 +14,21 @@ namespace ksharp
         class lexer
         {
         public:
-            struct lexerStruct
+        	typedef enum
+			{} token_type;
+            struct lexer_struct
             {
                 string code;
                 vector<string> tokens;
             };
 
-            lexerStruct lexerData = lexerStruct();
+            lexer_struct lexer_data = lexer_struct();
             lexer()
             {
-                lexerData.code = "";
-                lexerData.tokens = vector<string>();
+                lexer_data.code = "";
+                lexer_data.tokens = vector<string>();
             }
-            
+
             void setup(string code);
             void lex();
         };
