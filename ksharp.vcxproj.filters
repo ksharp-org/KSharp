@@ -13,10 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="rt">
+      <UniqueIdentifier>{a5779cab-850b-4c14-bcd5-cc497201b43e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rt\comp">
+      <UniqueIdentifier>{628f4ada-59aa-437f-a335-73bb9d499a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{868f07da-afcb-4d39-9bb1-3cd643bcfa2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rt\comp\lexer">
+      <UniqueIdentifier>{4f4f68d2-bf60-4d51-8f5f-764e400ee6b9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ksharp.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
