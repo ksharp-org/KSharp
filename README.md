@@ -1,18 +1,13 @@
 ﻿<div align="center">
-    # K#
+ 	<h1>K#</h1>
 </div>
 
-<div align="center">
-	---
-	## Table of Contents
-	---
-	- [Overview](#k)
-	- [Features](#features)
-	- [Getting Started](#getting-started)
-		- [1. Installing K#](#1-installing-k)
-			- [Requirements](#requirements)
-			- [Installing](#installing)
-</div>
+- [Overview](#K#)
+- [Features](#features)
+- [Getting Started](#getting-started)
+    - [1. Installing K#](#1-installing-k)
+    - [Requirements](#requirements)
+	- [Installing](#installing)
 
 K# is a **free and open source**, **general-purpose** and **fast** programming language based on C#.
 
