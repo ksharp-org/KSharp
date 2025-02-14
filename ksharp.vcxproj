@@ -531,11 +531,16 @@
     <Content Include=".git\refs\remotes\origin\main" />
     <Content Include="CMakeLists.txt" />
     <Content Include="README.md" />
+    <Content Include="runtime\compiler\com\README" />
+    <Content Include="runtime\compiler\def\README.md" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="runtime\compiler\def\components\lexer\lexer.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="runtime\compiler\def\components\lexer\lexer.h" />
+    <ClInclude Include="runtime\tools\types\lookup_hash.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>
   <ItemGroup>
