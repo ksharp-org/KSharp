@@ -5,7 +5,7 @@ VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ksharp", "ksharp.vcxproj", "{55AA535A-6EFA-4C3A-B0F2-88C4878CD31D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "website", "website\website.csproj", "{35C39EA2-E1AF-4AAF-AC44-94D5E53AA0A6}"
+# Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "website", "website\website.csproj", "{35C39EA2-E1AF-4AAF-AC44-94D5E53AA0A6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kpm", "pkgmrg\kpm.csproj", "{7A6D7222-2A7C-44CA-8FD9-4D63AF685113}"
 EndProject
